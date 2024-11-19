@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'akira';
+    src: url('/fonts/akira.woff2') format('woff2'),
+         url('/fonts/akira.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.btn{
+     @apply rounded-full py-3 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider
+}
